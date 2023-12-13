@@ -1,0 +1,63 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.TechnicalAssessment" parent="Theme.MaterialComponents.Light.NoActionBar">
+
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="android:fontFamily">@font/almarai</item>
+        <item name="fontFamily">@font/almarai</item>
+        <item name="colorPrimary">@color/yellow</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/yellow</item>
+        <item name="android:windowDisablePreview">true</item>
+        <!--        <item name="android:windowTranslucentStatus">true</item>-->
+
+    </style>
+
+    <style name="CustomBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/CustomBottomSheetStyle</item>
+        <item name="colorPrimary">@color/black</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+    </style>
+
+    <style name="CustomBottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="Material_Button_Style">
+        <item name="android:textColor">@color/black</item>
+        <item name="textAllCaps">false</item>
+        <item name="cornerRadius">@dimen/_12sdp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="backgroundTint">@color/yellow</item>
+    </style>
+
+
+    <style name="Widget.AppTheme.Material_ET_Style" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxCornerRadiusBottomEnd">@dimen/_12sdp</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/_12sdp</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/_12sdp</item>
+        <item name="boxCornerRadiusTopStart">@dimen/_12sdp</item>
+        <item name="boxBackgroundColor">@color/very_light_gray</item>
+        <item name="colorControlActivated">@color/gray_500</item>
+        <item name="boxStrokeColor">@color/gray_500</item>
+        <item name="boxStrokeWidth">1.5dp</item>
+    </style>
+
+    <style name="b_22">
+        <item name="android:textSize">@dimen/b16</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Widget.BottomNavigationView"
+        parent="Widget.Design.BottomNavigationView">
+        <item name="fontFamily">@font/almarai</item>
+    </style>
+
+    <style name="TabLayoutTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+        <item name="fontFamily">@font/almarai</item>
+    </style>
+
+
+</resources>

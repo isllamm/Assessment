@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="et_height">@dimen/_45sdp</dimen>
+    <dimen name="il_height">@dimen/_45sdp</dimen>
+    <dimen name="btn_height">@dimen/_46sdp</dimen>
+    <dimen name="back_img_width">@dimen/_36sdp</dimen>
+    <dimen name="back_img_height">@dimen/_36sdp</dimen>
+    <dimen name="button_radius">@dimen/_4sdp</dimen>
+    <dimen name="et_ver_space">@dimen/_4sdp</dimen>
+    <dimen name="label_ver_space">@dimen/_4sdp</dimen>
+    <dimen name="horizontal_space">@dimen/_16sdp</dimen>
+    <dimen name="options_size">@dimen/_40sdp</dimen>
+    <dimen name="b16">@dimen/_14ssp</dimen>
+    <dimen name="r16">@dimen/_12ssp</dimen>
+    <dimen name="r14">@dimen/_11ssp</dimen>
+</resources>
